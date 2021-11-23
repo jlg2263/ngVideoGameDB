@@ -1,6 +1,8 @@
+// Interceptors
 import { HttpErrorsInterceptor } from './interceptors/http-errors.interceptors';
 import { HttpHeadersInterceptor } from './interceptors/http-headers.interceptors';
 
+// Modules
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -17,6 +19,7 @@ import { MatSelectModule} from '@angular/material/select';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatIconModule } from '@angular/material/icon';
 
+// Components
 import { SearchComponent } from './components/search/search.component';
 import { HomeComponent } from './components/home/home.component';
 import { DetailsComponent } from './components/details/details.component';
